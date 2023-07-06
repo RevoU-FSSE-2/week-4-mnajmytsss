@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rompok Kopi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="hero">
+          <h2 class="heading">Rompok Kopi</h2>
+          <p class="sub-heading">Ngopi di hutan pinus</p>
+        </div>
+        <div class="features feature-1">
+          <h4 class="produk">Drink</h4>
+          <p class="bestSeller">Kopi Rompok Kenangan</p>
+        </div>
+        <div class="features feature-2">
+          <h4 class="produk">Meals</h4>
+          <p class="bestSeller">Rompok Cireng Isi</p>
+        </div>
+      </header>
+      <nav class="menu">
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="brand">
+          <h1>Rompok Kopi</h1>
+        </div>
+        <ul class="menu-list">
+          <li><a class="home">Home</a></li>
+          <li><a class="product">Products</a></li>
+          <li><a class="about">About</a></li>
+          <li><a class="gallery">Gallery</a></li>
+        </ul>
+        <img src="assets/moon.png" id="dark" />
+      </nav>
+      <div class="carousel">
+        <section class="container">
+          <div class="latte-wrapper">
+            <p>Signature</p>
+            <div class="latte">
+              <img id="latte-1" src="assets/taro-latte.jpg" alt="" />
+              <img id="latte-2" src="assets/vanila-latte.jpg" alt="" />
+              <img id="latte-3" src="assets/caramel-latte.jpg" alt="" />
+            </div>
+            <div class="latte-nav">
+              <a href="#latte-1"></a>
+              <a href="#latte-2"></a>
+              <a href="#latte-3"></a>
+            </div>
+          </div>
+        </section>
+        <section class="container">
+          <div class="kopi-wrapper">
+            <p>Darkness</p>
+            <div class="kopi">
+              <img id="kopi-1" src="assets/v60.avif" alt="" />
+              <img id="kopi-2" src="assets/tubruk.jpg" alt="" />
+              <img id="kopi-3" src="assets/vietnam-drip.jpg" alt="" />
+            </div>
+            <div class="kopi-nav">
+              <a href="#kopi-1"></a>
+              <a href="#kopi-2"></a>
+              <a href="#kopi-3"></a>
+            </div>
+          </div>
+        </section>
+        <section class="container">
+          <div class="moctail-wrapper">
+            <p>Colorful</p>
+            <div class="moctail">
+              <img id="moctail-1" src="assets/blue.avif" alt="" />
+              <img id="moctail-2" src="assets/strawberry.png" alt="" />
+              <img id="moctail-3" src="assets/manggo.jpg" alt="" />
+            </div>
+            <div class="moctail-nav">
+              <a href="#moctail-1"></a>
+              <a href="#moctail-2"></a>
+              <a href="#moctail-3"></a>
+            </div>
+          </div>
+        </section>
+      </div>
+      <section class="form-section">
+        <fieldset class="field">
+          <legend>Order here!</legend>
+          <form action="#">
+            <fieldset class="join">
+              <legend>Personal Data:</legend>
+              <div class="name">
+                <label for="fullname">Full Name:</label>
+                <input id="fullname" type="text" required="" />
+              </div>
+              <div class="email">
+                <label for="email">Phone Number</label>
+                <input type="email" id="email" required="" />
+              </div>
+              <div class="tellus">
+                <p>Address :</p>
+                <textarea name="" id="textarea" cols="30" rows="5"></textarea>
+              </div>
+              <div class="rank">
+                <label for="rank-select">Item :</label>
+                <select name="rankSelect" id="rank-select">
+                  <option value="">--Choose an option--</option>
+                  <option value="herald">Herald</option>
+                  <option value="guardian">Guardian</option>
+                  <option value="crusader">Crusader</option>
+                  <option value="archon">Archon</option>
+                  <option value="legend">Legend</option>
+                  <option value="ancient">Ancient</option>
+                  <option value="divine">Divine</option>
+                  <option value="immortal">Immortar</option>
+                </select>
+              </div>
+              <div class="playdota">
+                <p class="have">Shipping :</p>
+                <label for="yes">J&D</label>
+                <input id="yes" name="everPlay" type="radio" value="Yes" />
+                <label for="no">J&B</label>
+                <input type="radio" name="everPlay" id="no" value="No" />
+                <label for="no">Taka</label>
+                <input type="radio" name="everPlay" id="no" value="No" />
+              </div>
+            </fieldset>
+            <fieldset class="addinform">
+              <form action="/action_page.php">
+                <label for="birthday">Orders must be received at:</label>
+                <input type="date" id="birthday" name="birthday" />
+              </form>
+            </fieldset>
+            <div class="submit">
+              <button type="submit">Submit</button>
+              <button type="reset">Reset</button>
+            </div>
+          </form>
+        </fieldset>
+      </section>
+      <section  class="srcset">
+        <picture>
+          <source media="(min-width:768px)" srcset="assets/2022-10-05.jpg" />
+          <source media="(min-width:600px)" srcset="assets/2022-10-02.jpg" />
+          <img src="assets/2022-10-03.jpg" alt="" />
+        </picture>
+        <picture>
+          <source media="(min-width:768px)" srcset="assets/2022-10-02.jpg" />
+          <source media="(min-width:600px)" srcset="assets/2022-10-03.jpg" />
+          <img src="assets/2022-10-04.jpg" alt="" />
+        </picture>
+        <picture>
+          <source media="(min-width:768px)" srcset="assets/2022-10-04.jpg" />
+          <source media="(min-width:600px)" srcset="assets/2022-10-05.jpg" />
+          <img src="assets/2022-10-02.jpg" alt="" />
+        </picture>
+      </section>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
