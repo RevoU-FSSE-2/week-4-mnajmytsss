@@ -22,8 +22,6 @@
 6. Carousel is added at the bottom of News section, purely from css. I beg thee not to explain it in-depth because I made it at the dawn of night half-asleep.
 7. Media query are optimized for 1440px, with small adjustment at 1024px and 768px. !important is used for screen above 600px to fix Mobile's burger menu sometimes hides navbar when transitioned to larger screen size.
 
-
-
 ## Sign-up to Netlify
 
 1. Go to netlify.com
@@ -32,21 +30,23 @@
 
 3. Log-in with GitHub
    
-   ![2023-07-07 21.48.05.jpg](/Users/admin/Documents/new-project/2023-07-07%2021.48.05.jpg)
+   ![2023-07-07 21.48.05.jpg](assets/2023-07-07%2021.48.05.jpg)
 
 ## Deploy on Netlify from GitHub
 
 1. Go to Site, click Add new site, Import an existing project
    
-   ![2023-07-07 21.54.20.jpg](/Users/admin/Documents/new-project/2023-07-07%2021.54.20.jpg)
+   ![2023-07-07 21.54.20.jpg](assets/2023-07-07%2021.54.20.jpg)
 
 2. Click deploy with GitHub, and wait for authorizing 
    
-   ![2023-07-07 21.54.34.jpg](/Users/admin/Documents/new-project/2023-07-07%2021.54.34.jpg)
+   ![2023-07-07 21.54.34.jpg](assets/2023-07-07%2021.54.34.jpg)
 
 3. Choose the repository
    
-   ![Screen Shot 2023-07-07 at 21.58.14.png](/Users/admin/Desktop/Screen%20Shot%202023-07-07%20at%2021.58.14.png)
+   ![2023-07-07 23.47.43.jpg](assets/2023-07-07%2023.47.43.jpg)
+   
+   
 
 4. Scroll down, Deploy Site
    
@@ -58,15 +58,17 @@
    
    1. Go to domain seller websites (n this case I'm using Niagahoster) Click domain, cari & cek domain.
       
-      ![Screen Shot 2023-07-05 at 12.49.11.png](/Users/admin/Desktop/Screen%20Shot%202023-07-05%20at%2012.49.11.png)
+      ![2023-07-07 23.45.22.jpg](assets/2023-07-07%2023.45.22.jpg)
+      
+      
    
    2. Type your site name, make sure your site name is available, and click Cek Sekarang.
       
-      ![Screen Shot 2023-07-05 at 12.49.29.png](/Users/admin/Desktop/Screen%20Shot%202023-07-05%20at%2012.49.29.png)
+      ![2023-07-07 23.37.50.jpg](assets/2023-07-07%2023.37.50.jpg)
    
    3. Choose your domain (in this case I'm using .site) choose your payment option and follow the instruction for your payment method.
       
-      ![Screen Shot 2023-07-05 at 12.49.38.png](/Users/admin/Desktop/Screen%20Shot%202023-07-05%20at%2012.49.38.png)
+      ![2023-07-07 23.44.34.jpg](assets/2023-07-07%2023.44.34.jpg)
    
    4. After making a payment then fill in your personal data then your domain is active and can be used.
       
@@ -84,19 +86,19 @@
       
       6. Copy Nameserver 1 & 2, later you'll need this to overwrite your domain Nameserver.
          
-         ![2023-07-07 22.31.57.jpg](/Users/admin/Documents/new-project/2023-07-07%2022.31.57.jpg)
+         ![2023-07-07 22.31.57.jpg](assets/2023-07-07%2022.31.57.jpg)
       
       7. Go to your domain provider, click Domains -> your Domain Name.
       
       8. click Nameservers, and paste Nameservers provided by Cloudflare.
          
-         ![2023-07-07 22.39.06.jpg](/Users/admin/Documents/new-project/2023-07-07%2022.39.06.jpg)
+         ![2023-07-07 22.39.06.jpg](assets/2023-07-07%2022.39.06.jpg)
          
          ## Setting DNS
          
          1. go to your cloudflare account, click your website name -> DNS -> Records, click Add record.
             
-            ![2023-07-07 22.33.18.jpg](/Users/admin/Documents/new-project/2023-07-07%2022.33.18.jpg)
+            ![2023-07-07 22.33.18.jpg](assets/2023-07-07%2022.33.18.jpg)
          
          2. Enter "Type: CNAME, Name: @, IPv4 address: your Netlify.app link.
          
@@ -108,19 +110,13 @@
             
             2. go to Site overview -> Domain settings
             
-            ![2023-07-07 22.51.11.jpg](/Users/admin/Documents/new-project/2023-07-07%2022.51.11.jpg)
+            ![2023-07-07 22.51.11.jpg](assets/2023-07-07%2022.51.11.jpg)
          
          4. Click Add domain alias, type your domain name, verify click Add domain.
             
-            ![2023-07-07 22.55.46.jpg](/Users/admin/Documents/new-project/2023-07-07%2022.55.46.jpg)
+            ![2023-07-07 22.55.46.jpg](assets/2023-07-07%2022.55.46.jpg)
          
          5. Wait for awhile and your site is ready to be used.
-   
-   
-   
-
-
-
 
 <h2>Deploy Link</h2>
 <link>https://mnajmytsss.site"</link>
